@@ -22,7 +22,7 @@ whether or not they're instrumented manually:
 Run the first script without the automatic instrumentation agent and
 the second with the agent. They should both produce the same results, 
 demonstrating that the automatic instrumentation agent does
-exactly the same thing as manual instrumentation.
+exactly the same thing as manual instrumentation.  The opentelemetry-instrumentation package runs as a wrapper around python apps. For more information on settings and examples go `here <https://github.com/open-telemetry/opentelemetry-python/tree/main/opentelemetry-instrumentation>`__.
 
 To better understand auto-instrumentation, see the relevant part of both scripts:
 
